@@ -82,4 +82,11 @@ class IptvProfile extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+	public function primaryKey()
+	{
+    	return 'id_prof';
+    	// For composite primary key, return an array like the following
+    	// return array('pk1', 'pk2');
+	}
 }

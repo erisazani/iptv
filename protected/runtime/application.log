@@ -244,3 +244,14 @@ REQUEST_URI=/iptv/index.php?r=media/tv
 in C:\xampp\htdocs\iptv\protected\views\media\video.php (19)
 in C:\xampp\htdocs\iptv\protected\controllers\MediaController.php (19)
 in C:\xampp\htdocs\iptv\index.php (13)
+2013/07/01 10:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('info')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('info')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/info')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iptv/index.php?r=site/info
+HTTP_REFERER=http://localhost/iptv/index.php?r=site/index
+---

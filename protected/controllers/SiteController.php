@@ -32,11 +32,6 @@ class SiteController extends Controller
 		}
 	}
 
-	public function actionInfo()
-	{
-		$this->render('info');
-	}
-
 	public function actionUpdate()
 	{
 		$this->render('update');

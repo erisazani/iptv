@@ -4,7 +4,12 @@ class ProfileController extends Controller
 {
 	public function actionIndex()
 	{
-		$this->render('index');
+		$criteria=new CDbCriteria;
+		$criteria->select='profile';
+		$criteria->condition='id_prof=:postID';
+		$criteria->params=array(':postID'=>1);
+		$profile=IptvProfile::model()->find($criteria);
+		$this->render('info', array('profile'=>$profile);
 	}
 
 	// Uncomment the following methods and override them if needed
