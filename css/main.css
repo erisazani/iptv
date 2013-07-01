@@ -36,10 +36,16 @@ body
 {
 	padding: 10px;
 	margin: 10px 20px;
-	font-size: 0.8em;
-	text-align: center;
+	font-size: 12pt;
+	text-align: left;
 	border-top: 1px solid #C9E0ED;
 }
+	/*margin: -150px auto 0;
+	min-width: 1000px;
+	max-width: 1000px;
+	height: 150px;
+	background: #BFF08E;
+	position: relative;*/
 
 #logo
 {
