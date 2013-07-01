@@ -255,3 +255,153 @@ Stack trace:
 REQUEST_URI=/iptv/index.php?r=site/info
 HTTP_REFERER=http://localhost/iptv/index.php?r=site/index
 ---
+2013/07/01 10:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('info')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('info')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/info')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iptv/index.php?r=site/info
+HTTP_REFERER=http://localhost/iptv/index.php?r=site/index
+---
+2013/07/01 10:35:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('info')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('info')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('profile/info')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iptv/index.php?r=profile/info
+HTTP_REFERER=http://localhost/iptv/index.php?r=site/index
+---
+2013/07/01 10:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('info')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('info')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('profile/info')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iptv/index.php?r=profile/info
+HTTP_REFERER=http://localhost/iptv/index.php?r=site/index
+---
+2013/07/01 10:36:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('info')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('info')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('profile/info')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iptv/index.php?r=profile/info
+HTTP_REFERER=http://localhost/iptv/index.php?r=site/index
+---
+2013/07/01 10:36:07 [error] [exception.CException] exception 'CException' with message 'Property "ProfileController.profile" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\iptv\protected\views\profile\info.php(15): CComponent->__get('profile')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('info', Array, true)
+#5 C:\xampp\htdocs\iptv\protected\controllers\ProfileController.php(13): CController->render('info', Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProfileController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('profile')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/iptv/index.php?r=profile
+HTTP_REFERER=http://localhost/iptv/index.php?r=site/index
+---
+2013/07/01 10:37:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('profile')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iptv/index.php?r=profile
+HTTP_REFERER=http://localhost/iptv/index.php?r=site/index
+---
+2013/07/01 10:37:06 [error] [exception.CException] exception 'CException' with message 'Property "ProfileController.profile" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\iptv\protected\views\profile\info.php(15): CComponent->__get('profile')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('info', Array, true)
+#5 C:\xampp\htdocs\iptv\protected\controllers\ProfileController.php(13): CController->render('info', Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProfileController->actionInfo()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('info')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('profile/info')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/iptv/index.php?r=profile/info
+---
+2013/07/01 10:37:56 [error] [exception.CException] exception 'CException' with message 'Property "ProfileController.profile" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\iptv\protected\views\profile\info.php(15): CComponent->__get('profile')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('info', Array, true)
+#5 C:\xampp\htdocs\iptv\protected\controllers\ProfileController.php(18): CController->render('info', Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProfileController->actionInfo()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('info')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('profile/info')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/iptv/index.php?r=profile/info
+---
+2013/07/01 10:38:02 [error] [exception.CException] exception 'CException' with message 'Property "ProfileController.profile" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\iptv\protected\views\profile\info.php(15): CComponent->__get('profile')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('info', Array, true)
+#5 C:\xampp\htdocs\iptv\protected\controllers\ProfileController.php(18): CController->render('info', Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProfileController->actionInfo()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('info')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('profile/info')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/iptv/index.php?r=profile/info
+HTTP_REFERER=http://localhost/iptv/index.php?r=site/index
+---
+2013/07/01 10:38:42 [error] [php] Object of class IptvProfile could not be converted to string (C:\xampp\htdocs\iptv\protected\views\profile\info.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): ProfileController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): ProfileController->renderPartial()
+#2 C:\xampp\htdocs\iptv\protected\controllers\ProfileController.php(18): ProfileController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProfileController->actionInfo()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): ProfileController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): ProfileController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ProfileController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iptv\index.php(13): CWebApplication->run()
+REQUEST_URI=/iptv/index.php?r=profile/info
+in C:\xampp\htdocs\iptv\protected\views\profile\info.php (15)
+in C:\xampp\htdocs\iptv\protected\controllers\ProfileController.php (18)
+in C:\xampp\htdocs\iptv\index.php (13)

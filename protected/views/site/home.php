@@ -17,7 +17,7 @@
 			<font size="14px">Welcome, <?php echo Yii::app()->user->id; ?></font> <br />
 		</p>
 		<div id="info_icon">
-			<center><a href = "/iptv/index.php?r=site/info"><img src = "images/info_icon.png"></a></center>
+			<center><a href = "/iptv/index.php?r=profile/info"><img src = "images/info_icon.png"></a></center>
 			<br /><p align="center">Profil</p>
 		</div>
 		<div id="tv_icon">
