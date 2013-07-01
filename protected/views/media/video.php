@@ -1,8 +1,13 @@
 <?php
-$this->breadcrumbs=array(
-	'Media'=>array('media/video'),
-	'Videos',
-);?>
+	$baseUrl = Yii::app()->baseUrl; 
+  	$cs = Yii::app()->getClientScript();
+  	$cs->registerCssFile($baseUrl.'/css/yourcss.css');
+
+  	$this->breadcrumbs=array(
+		'Media'=>array('media/video'),
+		'Videos',
+	);
+?>
 <h1>Videos</h1>
 
 <table border='1'>
@@ -30,4 +35,4 @@ $this->breadcrumbs=array(
 		</tbody>
 </table>
 
-<!-- <p><?php echo CHtml::link("Hello message", array('message/helloWorld')); ?></p> -->
+<p><?php echo CHtml::link("Hello message", array('message/helloWorld')); ?></p>
