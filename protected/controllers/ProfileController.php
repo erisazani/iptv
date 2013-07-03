@@ -10,12 +10,22 @@ class ProfileController extends Controller
 	public function actionInfo()
 	{
 		$model = new IptvProfile;
-		$criteria=new CDbCriteria;
-		$criteria->select='profile';
-		$criteria->condition='id_prof=:postID';
-		$criteria->params=array(':postID'=>1);
-		$profile= $model->find($criteria);
+		$profile = $model->findByPk(1);
 		$this->render('info', array('profile'=>$profile,'model'=>$model));
+	}
+
+	public function actionEditInfo()
+	{
+		$model = new IptvProfile;
+		$profile = $model->findByPk(1);
+		if(isset($_POST["IptvProfile"])) {
+				$content = $_POST["IptvProfile"];
+				$profile->profile = $content['profile'];
+				$profile->save();
+               	$this->redirect('index.php?r=profile/info', array('profile'=>$profile,'model'=>$model));
+		} else {
+			$this->render('editinfo', array('profile'=>$profile,'model'=>$model));
+		}
 	}
 	// Uncomment the following methods and override them if needed
 	/*

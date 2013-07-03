@@ -14,9 +14,13 @@ $this->breadcrumbs=array(
 			<h1>Profile</h1>
 			<?php
 				echo $profile['profile'];
+				if(Yii::app()->user->id == "contadmin") { 
 			?>
-
-			Edit.
+			<br/>
+			<?php 
+					echo CHtml::link('Edit',array('profile/editinfo'));
+				}
+			?>
 		</p>
 	</body>
 </html>
