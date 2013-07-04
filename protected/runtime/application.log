@@ -874,3 +874,33 @@ REQUEST_URI=/iptv/index.php?r=profile/info
 in C:\xampp\htdocs\iptv\protected\views\profile\info.php (21)
 in C:\xampp\htdocs\iptv\protected\controllers\ProfileController.php (17)
 in C:\xampp\htdocs\iptv\index.php (13)
+2013/07/04 09:38:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index?r=site".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('index?r=site')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index?r=site')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('authentication/...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iptv/index.php?r=authentication/index?r=site/index
+---
+2013/07/04 09:41:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "logout".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('logout')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('logout')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('authentication/...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iptv/index.php?r=authentication/logout
+---
+2013/07/04 09:41:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "logout".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('logout')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('logout')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('authentication/...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iptv\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iptv/index.php?r=authentication/logout
+---
