@@ -40,27 +40,6 @@
 	<div id="content">
 		<?php echo $content; ?>
 	</div>
-	<div id="sidebar">
-		<table width = "100%" border="1">
-          <tbody align="center">
-              <tr height="50px">
-                  <td> <a href="/iptv/index.php?r=media/tv">TV</a> </td>
-              </tr>
-              <tr height="50px">
-                  <td><a href="/iptv/index.php?r=media/video">Video</a> </td>
-              </tr>
-              <tr height="50px">
-                  <td> <a href="/iptv/index.php?r=order/order">Pemesanan</a> </td>
-              </tr>
-              <tr height="50px">
-                  <td> <a href="/iptv/index.php?r=profile/info">Profil</a> </td>
-              </tr>
-              <tr height="50px">
-                  <td> <a href="/iptv/index.php?r=site/logout">Logout</a> </td>
-              </tr>
-          </tbody>
-      </table>    
-	</div>
 
 	<div id="footer">
 		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>

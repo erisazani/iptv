@@ -3,7 +3,7 @@ body {
   width:100%;
 }
 
-article {
+#content {
   position:absolute;
   top:30px;
   bottom:30px;
@@ -22,7 +22,7 @@ article {
     overflow:hidden;
 }
 
-header {
+#header {
     position:absolute;
     top:0px;
     left:0px;
@@ -33,24 +33,25 @@ header {
 }
 
 #sidebar {
+
     position:absolute;
     top:30px;
     left:0px;
     width:100px;
-    height:330px;
+    height:90%;
     right:0px;
     overflow:auto;
-    background: blue;
+    background: cyan;
 }
 
-footer {
+#footer {
     position:absolute;
     bottom:0px;
-    height:30px;
+    height:8%;
     left:0px;
     right:0px;
     overflow:hidden;
-    background: red;
+    background: green;
 }
 
 td:hover {

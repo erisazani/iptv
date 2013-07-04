@@ -27,6 +27,7 @@ class SiteController extends Controller
 
 	public function actionIndex()
 	{
+		$this->layout = "sideless";
 		if(Yii::app()->user->id !== null) {
 			Yii::app()->user->returnUrl = "/iptv/index.php";	
 			$this->render('home');
