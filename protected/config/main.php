@@ -8,6 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'IPTV Service',
+	'defaultController'=>'authentication',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -25,7 +26,7 @@ return array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'gii',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('127.0.0.1','::1'),
+			//'ipFilters'=>array('127.0.0.1','::1'),
 		),
 		
 	),
@@ -55,8 +56,8 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=iptv',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
+			'username' => 'iptv',
+			'password' => 'okesaja',
 			'charset' => 'utf8',
 		),
 		
